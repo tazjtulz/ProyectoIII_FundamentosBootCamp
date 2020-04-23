@@ -4,22 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleCartelera.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link
         href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand:wght@300;400;500;515;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styleCartelera.css">
+    <link rel="stylesheet" href="styleHeader.css">
+    <link rel="stylesheet" href="styleFooter.css">
+
+    <link rel="shortcut icon" type="image/png" href="Multimedia_ProyectoIII_Fundamentos_Bictia/favicon.png">
     <title>Cine-bit | Cartelera</title>
+
 </head>
 
 <body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"> </a>
+            <img class="logoHeader" src="./cine bictia logo opcion 2 cine (1).png"
+                alt="cine bictia logo opcion 2 cine (1).png">
+            <button class="navbar-toggler navFondo " type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="index.html"> Inicio <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="cartelera.html">Cartelera</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="estrenos.html">Proximos estrenos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="servicios.html" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Servicios
+                        </a>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Horarios y Tarifas</a>
+                            <a class="dropdown-item" href="#">Bic Card</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="#">Nuestro Tenedor</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="contacto.html">Contactenos</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0 text-dark fondo" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
     <div class="container">
         <div class="row d-flex mt-5 justify-content-between">
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row no-gutters">
                     <div class="col-md-4">
-                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/Cartelera/007.jpg" class="card-img" alt="No Time To Die">
+                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/Cartelera/007.jpg" class="card-img"
+                            alt="No Time To Die">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -29,8 +88,8 @@
                             <p class="card-text">James Bond, el agente 007 regresa en un peligrosa misión tras la pista
                                 de un
                                 misterioso criminal dotado de una nueva y temible tecnología....</p>
-                            <button type="button" class="btn btn-sm mt-3"><a
-                                    href="Sintiempo.html" class="linkMovie">Más información</a></button>
+                            <button type="button" class="btn btn-sm mt-3"><a href="Sintiempo.html" class="linkMovie">Más
+                                    información</a></button>
                         </div>
                     </div>
                 </div>
@@ -38,7 +97,8 @@
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row no-gutters">
                     <div class="col-md-4">
-                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/Cartelera/Bloodshot.jpg" class="card-img" alt="Bloodshoot">
+                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/Cartelera/Bloodshot.jpg" class="card-img"
+                            alt="Bloodshoot">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -47,8 +107,8 @@
                             <p class="card-text2"><small class="muted">Duración: 1h 49m</small></p>
                             <p class="card-text">Ray Garrison, un soldado caído recientemente en combate es vuelto a la
                                 vida por la corporación RST como un súper humano "Bloodshot"...</p>
-                            <button type="button" class="btn btn-sm mt-3"><a href="Bloodshot.html"
-                                    class="linkMovie">Más información</a></button>
+                            <button type="button" class="btn btn-sm mt-3"><a href="Bloodshot.html" class="linkMovie">Más
+                                    información</a></button>
                         </div>
                     </div>
                 </div>
@@ -56,7 +116,8 @@
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row no-gutters">
                     <div class="col-md-4">
-                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/Cartelera/MercyBlack.jpg" class="card-img" alt="Mercy-Black">
+                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/Cartelera/MercyBlack.jpg" class="card-img"
+                            alt="Mercy-Black">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -65,8 +126,8 @@
                             <p class="card-text2"><small class="muted">Duración: 1h 28m</small></p>
                             <p class="card-text">Quince años después de apuñalar a una compañera de clases para invocar
                                 a un fantasma conocido como Mercy Black...</p>
-                            <button type="button" class="btn btn-sm mt-3"><a href="Posesion.html"
-                                    class="linkMovie">Más información</a></button>
+                            <button type="button" class="btn btn-sm mt-3"><a href="Posesion.html" class="linkMovie">Más
+                                    información</a></button>
                         </div>
                     </div>
                 </div>
@@ -74,7 +135,8 @@
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row no-gutters">
                     <div class="col-md-4">
-                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/Cartelera/Mulan.jpg" class="card-img" alt="Mulan">
+                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/Cartelera/Mulan.jpg" class="card-img"
+                            alt="Mulan">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -83,8 +145,8 @@
                             <p class="card-text2"><small class="muted">Duración: 2h 00m</small></p>
                             <p class="card-text">Adaptación del clásico de Disney en acción real, en la que unintrépida
                                 joven lo arriesga todo por el amor de su familia y de su país...</p>
-                            <button type="button" class="btn btn-sm mt-3"><a href="mulan.html"
-                                    class="linkMovie">Más información</a></button>
+                            <button type="button" class="btn btn-sm mt-3"><a href="mulan.html" class="linkMovie">Más
+                                    información</a></button>
                         </div>
                     </div>
                 </div>
@@ -92,7 +154,8 @@
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row no-gutters">
                     <div class="col-md-4">
-                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/Cartelera/PrecioVerdad.jpg" class="card-img" alt="El precio de la verdad">
+                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/Cartelera/PrecioVerdad.jpg"
+                            class="card-img" alt="El precio de la verdad">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -110,8 +173,8 @@
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row no-gutters">
                     <div class="col-md-4">
-                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/Cartelera/UnaGuerraBrillante.jpg" class="card-img"
-                            alt="Una guerra brillante">
+                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/Cartelera/UnaGuerraBrillante.jpg"
+                            class="card-img" alt="Una guerra brillante">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -120,14 +183,18 @@
                             <p class="card-text2"><small class="muted">Duración: 2h 06m</small></p>
                             <p class="card-text">El enfrentamiento personal y comercial entre Thomas Edison y George
                                 Westinghouse, por hacerse con la propiedad sobre la implantación del sistema...</p>
-                            <button type="button" class="btn btn-sm mt-3"><a href="guerra.html"
-                                    class="linkMovie">Más información</a></button>
+                            <button type="button" class="btn btn-sm mt-3"><a href="guerra.html" class="linkMovie">Más
+                                    información</a></button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    
+    <!-- SCRIPTS BOOTSTRAP -->
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>

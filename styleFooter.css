@@ -1,0 +1,194 @@
+*{
+  font-family: 'Quicksand', Helvetica, sans-serif;  
+}
+
+.imgGoogle{
+  width: 120px;
+}
+.imgApple{
+  width: 120px;
+}
+
+.ulItem{
+  text-align: left;
+  list-style-type: none;
+}
+
+.aColor{
+  color: #fff;
+  font-size: 18px;
+}
+
+.liColor{
+  color: gold;
+}
+
+.liItem{
+  color: #757575;
+  justify-items: left;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+ background-image: url(Multimedia_ProyectoIII_Fundamentos_Bictia/imagenesFooter/background_Footer.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid white;
+}
+.single-cta i {
+  color: #CCC312;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h5 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  padding-top: 90%;
+}
+.footer-logo img {
+    max-width: 100px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.iconos{
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+
+
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #CCC312;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #CCC312;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+
+.footer-social-icon{
+  padding: 80px 0 0 0;
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+
+a{
+    margin: 0;
+    font-size: 14px;
+    color: #878787;
+    text-decoration: none;  
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #CCC312;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #CCC312;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+  text-decoration: none;
+}
+
+/* Aqui empieza nuestro staff */
+
+.avatar {
+  border: 0.3rem solid rgba(#fff, 0.3);
+  margin-top: -6rem;
+  margin-bottom: 1rem;
+  max-width: 9rem;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cardImgStaff{
+  width: 350px;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
