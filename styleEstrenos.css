@@ -1,26 +1,25 @@
-/* estilos del header */
 
-.logoHeader{
-    width: 150px;
-    margin-left: 50px;
+body{background-color: #3b3b3b !important;
 }
-nav{
-    background-image: url(./background_JN/header100px.png);
-    background-size: cover;
+.card{
+    margin: 10px;
+    background-color: #c0bdbd !important;
+    border-color: rgb(151, 103, 0)  !important;
+    
 }
-.dropdown-menu{
-    background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
-}
-.fondo{
-    background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
-    border: none;
-}
-@media screen and (max-width:900px){
-nav{
-    background-image: url(./background_JN/background_Footer.jpg);
-}
-.navFondo{
-    background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
-    margin-right: 40px;
-}
-}
+a{ color: rgb(0, 0, 0) !important;
+    
+   }
+.btn{background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C) !important ;
+      border-color: #AA771C !important;
+      font-weight: 400;
+    }
+  h5{
+        font-family:'Abril Fatface', cursive;
+    }    
+
+    hr{
+        height: 3px !important;
+        background:rgb(rgb(165, 48, 1), green, blue) !important ;
+        border-color: rgb(151, 103, 0) !important;
+    }
