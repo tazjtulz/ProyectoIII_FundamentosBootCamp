@@ -1,30 +1,4 @@
 
-/* estilos del header */
-
-.logoHeader{
-    width: 150px;
-    margin-left: 50px;
-}
-nav{
-    background-image: url(./background_JN/header100px.png);
-    background-size: cover;
-}
-.dropdown-menu{
-    background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
-}
-.fondo{
-    background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
-    border: none;
-}
-@media screen and (max-width:900px){
-nav{
-    background-image: url(./background_JN/background_Footer.jpg);
-}
-.navFondo{
-    background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
-    margin-right: 40px;
-}
-
 *{
     padding: 0;
     margin: 0;

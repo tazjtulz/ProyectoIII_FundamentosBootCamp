@@ -148,7 +148,8 @@ ul {
 a{
     margin: 0;
     font-size: 14px;
-    color: #878787;  
+    color: #878787;
+    text-decoration: none;  
 }
 .copyright-text p {
   margin: 0;
@@ -168,6 +169,7 @@ a{
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
+  text-decoration: none;
 }
 
 /* Aqui empieza nuestro staff */
