@@ -19,6 +19,8 @@ nav {
     border: none;
 }
 
+/* RESPONSIVE */
+
 @media screen and (max-width:900px) {
     nav {
         background-image: url(./background_JN/background_Footer.jpg);
