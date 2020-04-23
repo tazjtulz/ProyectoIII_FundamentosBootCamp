@@ -6,9 +6,327 @@
     <link rel="stylesheet" href="styleEstrenos.css">
     <link rel="shortcut icon" type="image/png" href="Cont_Multimedia/favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>CineBit | Estrenos</title>
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"> </a>
+            <img class="logoHeader" src="./cine bictia logo opcion 2 cine (1).png" alt="cine bictia logo opcion 2 cine (1).png">
+            <button class="navbar-toggler navFondo " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
     
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#"> Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Cartelera</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Proximos estrenos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Servicios
+                        </a>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Horarios y Tarifas</a>
+                            <a class="dropdown-item" href="#">Bic Card</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="#">Nuestro Tenedor</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Contactenos</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0 text-dark fondo" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    
+        
+    <section class="container">
+        <div class="row mb-5 mt-5 d-flex justify-content-between">
+            
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/CarteleraEstrenos/apocalipsisZombie.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Apocalipsis Zombie</h5>
+                            <p class="card-text"><small class="text-muted">Horror</small></p>
+                            <p class="card-text"><small class="text-muted">Duración: 1h 58m</small></p>
+                            <hr>
+                            <p class="card-text">Un grupo de soldados combaten a sedientos zombies con el objetivo de
+                                rescatar a un científico que tiene la cura de un virus letal.</p>
+                            <p class="card-text"><small class="text-muted">Fecha de estreno: Mayo 11 2020</small></p>
+                            <a href="#" class="btn btn-primary">Reservar</a>
+                            <a href="https://www.youtube.com/watch?v=Lqc9KscCmys" class="btn btn-primary"
+                                target="blank">Ver Trailer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/CarteleraEstrenos/ArtemisFowl.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Artemis Fowl</h5>
+                            <p class="card-text"><small class="text-muted">Fantasía y Ciencia Ficción</small></p>
+                            <p class="card-text"><small class="text-muted">Duración: 1h 55m</small></p>
+                            <hr>
+                            <p class="card-text">Artemis Fowl es un joven irlandés descendiente de una larga línea
+                                de criminales intelectuales. Artemis rapta a Holly Short, un hada, con la intención
+                                de pedir un rescate que le permita salvar a su padre. </p>
+                            <p class="card-text"><small class="text-muted">Fecha de estreno: Mayo 29 2020</small>
+                            </p>
+                            <a href="#" class="btn btn-primary">Reservar</a>
+                            <a href="#" class="btn btn-primary">Ver Trailer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/CarteleraEstrenos/BlackWidow.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Black Widow</h5>
+                            <p class="card-text"><small class="text-muted">Aventura y Acción</small></p>
+                            <p class="card-text"><small class="text-muted">Duración: 1h 49m</small></p>
+                            <hr>
+                            <p class="card-text">Al nacer, la Viuda Negra, se entrega a la KGB para convertirse
+                                en su agente definitivo. Cuando la URSS se separa, el gobierno intenta matarla
+                                mientras la acción se traslada a la actual Nueva York.</p>
+                            <p class="card-text"><small class="text-muted">Fecha de estreno: Abril 24
+                                    2020</small></p>
+                            <a href="#" class="btn btn-primary">Reservar</a>
+                            <a href="#" class="btn btn-primary">Ver Trailer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/CarteleraEstrenos/F9-Poster.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Fast & Furious 9 </h5>
+                            <p class="card-text"><small class="text-muted"> Acción</small></p>
+                            <p class="card-text"><small class="text-muted">Duración: 2h 15m</small></p>
+                            <hr>
+                            <p class="card-text">La novena película Fast and Furious sigue las emocionantes
+                                aventuras y carreras del equipo de amigos, tras la traición de Dominic
+                                Toretto.</p>
+                            <p class="card-text"><small class="text-muted">Fecha de estreno: Mayo 20
+                                    2020</small></p>
+                            <a href="#" class="btn btn-primary">Reservar</a>
+                            <a href="#" class="btn btn-primary">Ver Trailer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/CarteleraEstrenos/FantasyIsland.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Fantasy Island </h5>
+                            <p class="card-text"><small class="text-muted"> Terror y Suspenso</small>
+                            </p>
+                            <p class="card-text"><small class="text-muted">Duración: 1h 48m</small></p>
+                            <hr>
+                            <p class="card-text">El enigmático Sr. Roarke hace realidad los sueños de
+                                los afortunados huéspedes que acuden a su lujoso y remoto resort
+                                tropical. Sin embargo, sus fantasías se convertirán en pesadillas, y los
+                                invitados deberán resolver el misterio que oculta la isla para poder
+                                escapar con vida.</p>
+                            <p class="card-text"><small class="text-muted">Fecha de estreno: Abril 30
+                                    2020</small></p>
+                            <a href="#" class="btn btn-primary">Reservar</a>
+                            <a href="#" class="btn btn-primary">Ver Trailer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/CarteleraEstrenos/Malasaña.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Malasaña 32 </h5>
+                            <p class="card-text"><small class="text-muted"> Terror </small></p>
+                            <p class="card-text"><small class="text-muted">Duración: 1h 44m</small>
+                            </p>
+                            <hr>
+                            <p class="card-text">Manolo y Candela se instalan en el madrileño barrio
+                                de Malasaña, junto a sus tres hijos y el abuelo Fermín. Atrás dejan
+                                el pueblo en busca de la prosperidad que parece ofrecerles la
+                                capital de un país que se encuentra en plena transición. Pero hay
+                                algo que la familia Olmedo no sabe: en la casa que han comprado, no
+                                están solos.</p>
+                            <p class="card-text"><small class="text-muted">Fecha de estreno: Abril
+                                    17 2020</small></p>
+                            <a href="#" class="btn btn-primary">Reservar</a>
+                            <a href="#" class="btn btn-primary">Ver Trailer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/CarteleraEstrenos/minions.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Minions nace un villano 2 </h5>
+                            <p class="card-text"><small class="text-muted"> Comedia y Animación
+                                </small></p>
+                            <p class="card-text"><small class="text-muted">Duración: 1h
+                                    30m</small></p>
+                            <hr>
+                            <p class="card-text">Ahora que el incansable y emprendedor Gru ha
+                                dejado atrás una vida dedicada a las fechorías para criar a
+                                Margo, Edith y Agnes, dispone de mucho tiempo libre para
+                                disfrutarlo con ellas, el Dr. Nefario y los minions.</p>
+                            <p class="card-text"><small class="text-muted">Fecha de estreno:
+                                    Abril 17 2020</small></p>
+                            <a href="#" class="btn btn-primary">Reservar</a>
+                            <a href="#" class="btn btn-primary">Ver Trailer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/CarteleraEstrenos/SecretGarden.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">El Jardín Secreto </h5>
+                            <p class="card-text"><small class="text-muted"> Fantasía y Drama
+                                </small></p>
+                            <p class="card-text"><small class="text-muted">Duración: 1h
+                                    40m</small></p>
+                            <hr>
+                            <p class="card-text">Mary tiene 9 años y vive con sus padres en
+                                la India donde su padre trabaja para el gobierno inglés.
+                                Cuando los padres mueren, Mary es enviada a vivir a una
+                                inmensa mansión con su malhumorado y solitario tío y su
+                                estricta ama de llaves. Allí la niña se encontrará sola en
+                                una mansión con y un jardín amurallado donde con la ayuda de
+                                la fantasía y en compañía de su enfermizo primo y un joven
+                                del pueblo, emprenderán una maravillosa aventura.</p>
+                            <p class="card-text"><small class="text-muted">Fecha de estreno:
+                                    Abril 8 2020</small></p>
+                            <a href="#" class="btn btn-primary">Reservar</a>
+                            <a href="#" class="btn btn-primary">Ver Trailer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/CarteleraEstrenos/Tenet.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Tenet</h5>
+                            <p class="card-text"><small class="text-muted">Suspenso y
+                                    Acción</small></p>
+                            <p class="card-text"><small class="text-muted">Duración: 2h
+                                    13m</small></p>
+                            <hr>
+                            <p class="card-text">Una acción épica que gira en torno al
+                                espionaje internacional, los viajes en el tiempo y la
+                                evolución, en la que un agente secreto debe prevenir la
+                                Tercera Guerra Mundial.</p>
+                            <p class="card-text"><small class="text-muted">Fecha de
+                                    estreno: Julio 16 2020</small></p>
+                            <a href="#" class="btn btn-primary">Reservar</a>
+                            <a href="#" class="btn btn-primary">Ver Trailer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./Multimedia_ProyectoIII_Fundamentos_Bictia/CarteleraEstrenos/TopGun.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Top Gun 2</h5>
+                            <p class="card-text"><small class="text-muted">Acción y
+                                    Aventura</small></p>
+                            <p class="card-text"><small class="text-muted">Duración:
+                                    2h 26m</small></p>
+                            <hr>
+                            <p class="card-text">Tras más de 30 años de servicio
+                                como uno de los mejores aviadores de la Armada, Pete
+                                "Maverick" Mitchel se encuentra dónde siempre quiso
+                                estar, empujando los límites como un valiente piloto
+                                de prueba.</p>
+                            <p class="card-text"><small class="text-muted">Fecha de
+                                    estreno: Junio 26 2020</small></p>
+                            <a href="#" class="btn btn-primary">Reservar</a>
+                            <a href="#" class="btn btn-primary">Ver Trailer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>   
+  
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  
 </body>
 </html>
