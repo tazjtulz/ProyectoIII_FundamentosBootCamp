@@ -1,3 +1,4 @@
+
 /* estilos del header */
 
 .logoHeader{
@@ -23,4 +24,57 @@ nav{
     background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
     margin-right: 40px;
 }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3b3b3b !important;
+}
+
+
+.card-title{
+    font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.card-text{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.card-text2{
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+}
+
+.text-muted{
+    color: black;
+}
+
+.card{
+    margin: 10px;
+    background-color: #c0bdbd !important;
+}
+
+.btn{
+    font-family: 'Quicksand', sans-serif;
+    background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C) !important;
+    color: rgb(129, 128, 128);
+}
+
+.linkMovie{
+    color: rgb(0, 0, 0);
+    border-radius: 1px solid black;
+}
+
+.linkMovie:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
