@@ -1,0 +1,24 @@
+body{background-color: #3b3b3b !important;
+}
+.card{
+    margin: 10px;
+    background-color: #c0bdbd !important;
+    border-color: rgb(151, 103, 0)  !important;
+    
+}
+a{ color: rgb(0, 0, 0) !important;
+    
+   }
+.btn{background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C) !important ;
+      border-color: #AA771C !important;
+      font-weight: 400;
+    }
+    h5{
+        font-family:'Abril Fatface', cursive;
+    }    
+
+    hr{
+        height: 3px !important;
+        background:rgb(rgb(165, 48, 1), green, blue) !important ;
+        border-color: rgb(151, 103, 0) !important;
+    }
