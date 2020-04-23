@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3b3b3b !important;
+}
+
+.card{
+    background-color: #c0bdbd !important;
+}
+
+.list-group-item{
+    background-color: #c0bdbd !important;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    background-color: #7a7a7a52;
+    padding: 30px 50px !important;
+    height: 100%;
+}
+
+.title{
+    font-family: 'Abril Fatface', cursive;
+    color:#d4a619;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    justify-items: center;
+}
+
+.text{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 70px;
+    font-size: 17px;
+}
+
+.vid{
+    width: 100%;
+    height: 350px;
+margin-top: 30px;
+}
+
+.carousel{
+    width: 100%;
+}
+
+.card-title{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 15px;
+}
+
+.linkSlider{
+    color: black;
+    text-decoration: none;
+}
+
+.linkSlider:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.cardSlider{
+    background-color: #c0bdbd;
+    border-radius: 10px;
+}
+
+.cardSlider:hover{
+    transform: scale(1.1 , 1.1);
+    transition: all .3s ease-in-out;
+    background-color: #757474;
+}
+
+.cardSliderSelect{
+    background-color: #d4a619;
+    border-radius: 15px;
+    color: white;
+}
+
+.slider1{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+
+.cardSlider1{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.contSlider{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+@media screen and (max-widht: 540px){
+    .contenedor{
+        flex-direction: column;
+    }
+    iframe{
+        width: 100%;
+        height: 250px;
+    }
+    .carousel{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px){
+    .height{
+        width: 60%;
+        margin-left: 50px;
+    }
+}
