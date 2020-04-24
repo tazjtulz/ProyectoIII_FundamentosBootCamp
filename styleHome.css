@@ -1,0 +1,29 @@
+.publicidadHome{
+    line-height: 1.8;
+    font-family: Quicksand;
+}
+
+/* FONDO PRÓXIMOS ESTRENOS */
+
+.proxEstrenos{
+    margin-top: 50px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#transition{
+    width: 2000px;
+    height: 250px;
+
+    background-image: url(Multimedia_ProyectoIII_Fundamentos_Bictia/Home/biEstrenos.jpg);
+    background-size: 100% 100%;
+
+    animation: transitionEs 20s infinite linear;
+}
+
+@keyframes transitionEs{
+    to{
+        background-position: 2000px;
+    }
+}

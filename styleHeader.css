@@ -6,7 +6,7 @@
 }
 
 nav {
-    background-image: url(./background_JN/header100px.png);
+    background-image: url(./Multimedia_ProyectoIII_Fundamentos_Bictia/header/header100px.png);
     background-size: cover;
 }
 
@@ -23,7 +23,7 @@ nav {
 
 @media screen and (max-width:900px) {
     nav {
-        background-image: url(./background_JN/background_Footer.jpg);
+        background-image: url(Multimedia_ProyectoIII_Fundamentos_Bictia/header/background_Footer.jpg);
     }
 
     .navFondo {
