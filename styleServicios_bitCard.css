@@ -1,0 +1,24 @@
+
+
+.formulario{
+    width: 70%;
+    background-image: url(./Multimedia_ProyectoIII_Fundamentos_Bictia/header/background_Footer.jpg);
+    padding: 50px;
+    border-radius: 50px;
+margin: auto;
+
+color: white;
+border-bottom: 2px solid white;
+}
+
+.btnBag{
+    background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+}
+.iniciar{
+    justify-content: center;
+}
+main{
+    background-color: white;
+padding-top: 50px;
+padding-bottom: 50px;
+}
